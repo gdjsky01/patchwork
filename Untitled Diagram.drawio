@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2020-08-28T03:51:38.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="CJ3xWnS4FP9i1u9hM7DW" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-28T03:53:11.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="NiL3A3khxcQu2YwXMBA_" version="13.6.5" type="github">
   <diagram id="tiNbwfVHrU3rleALvfvO" name="Page-1">
     <mxGraphModel dx="1837" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NbFQiC-a6_RJZgWB6c9p-35" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;gradientColor=none;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="610" height="570" as="geometry" />
+        </mxCell>
         <mxCell id="NbFQiC-a6_RJZgWB6c9p-1" value="/var/log/aws" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;fontFamily=Courier New;" vertex="1" parent="1">
-          <mxGeometry x="395" y="268" width="110" height="90" as="geometry" />
+          <mxGeometry x="395" y="292" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NbFQiC-a6_RJZgWB6c9p-2" value="/var/log/aws_staging" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;fontFamily=Courier New;" vertex="1" parent="1">
-          <mxGeometry x="520" y="420" width="110" height="90" as="geometry" />
+          <mxGeometry x="395" y="420" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NbFQiC-a6_RJZgWB6c9p-3" value="/var/log/scribe/{type}" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;fontFamily=Courier New;" vertex="1" parent="1">
           <mxGeometry x="870" y="150" width="110" height="90" as="geometry" />
@@ -29,7 +32,15 @@
           <mxGeometry x="49.47487063886473" y="78.00049261083745" width="36.502894615502846" height="42.610837438423644" as="geometry" />
         </mxCell>
         <mxCell id="NbFQiC-a6_RJZgWB6c9p-34" value="/usr/local/bin/aws_xxxx_sync.sh" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/picol-vector/32/script-128.png;gradientColor=none;fontFamily=Courier New;" vertex="1" parent="1">
-          <mxGeometry x="270" y="22" width="128" height="128" as="geometry" />
+          <mxGeometry x="300" y="80" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFQiC-a6_RJZgWB6c9p-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.061;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Courier New;" edge="1" parent="1" source="NbFQiC-a6_RJZgWB6c9p-16" target="NbFQiC-a6_RJZgWB6c9p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFQiC-a6_RJZgWB6c9p-37" value="aws sync" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Courier New;" vertex="1" connectable="0" parent="NbFQiC-a6_RJZgWB6c9p-36">
+          <mxGeometry x="0.3206" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
